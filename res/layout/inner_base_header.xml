@@ -19,11 +19,11 @@
   -->
 <!-- This is the InnerContent of Header -->
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
-              android:layout_width="wrap_content"
-              android:layout_height="wrap_content">
-
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
     <!-- This is the base Inner View inside a CardHeader.
          You can customize it with your layout xml file and your CardHeader.

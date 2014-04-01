@@ -23,7 +23,6 @@ package com.android.cards;
  */
 public class Constants {
 
-
     public static class IntentManager{
 
         /**
@@ -45,9 +44,6 @@ public class Constants {
          * Extra for {@link com.android.cards.internal.Card} id
          */
         public static final String INTENT_ACTION_IMAGE_DOWNLOADED_EXTRA_CARD_ID  = "ExtraCardId";
-
-
-
 
     }
 

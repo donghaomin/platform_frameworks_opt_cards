@@ -17,6 +17,7 @@
   -->
 
 <resources>
+
     <declare-styleable name="card_options">
 
         <!-- Layout to build a card. Default value is  @layout/card_base_layout -->

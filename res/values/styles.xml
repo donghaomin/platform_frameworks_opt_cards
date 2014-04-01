@@ -19,12 +19,11 @@
 <resources>
 
     <style name="card">
-
     </style>
 
-    <!-- Style for Shadow ******************************************************-->
+    <!-- Style for Shadow ****************************************************** -->
 
-    <!-- Style for Shadow Compound view-->
+    <!-- Style for Shadow Compound view -->
     <style name="card.shadow_outer_layout">
         <item name="android:layout_marginTop">@dimen/card_shadow_view_margin_top</item>
         <item name="android:layout_marginBottom">@dimen/card_shadow_view_margin_bottom</item>
@@ -32,7 +31,7 @@
         <item name="android:layout_marginEnd">@dimen/card_shadow_view_margin_end</item>
     </style>
 
-    <!--Style for shadow image-->
+    <!-- Style for shadow image -->
     <style name="card.shadow_image">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">@dimen/card_shadow_height</item>
@@ -40,7 +39,7 @@
         <item name="android:layout_below">@+id/card_main_content_layout</item>
     </style>
 
-    <!-- Style for Header ******************************************************-->
+    <!-- Style for Header ****************************************************** -->
 
     <style name="card.header_outer_layout">
         <item name="android:layout_marginTop">@dimen/card_header_outer_view_margin_top</item>
@@ -49,12 +48,11 @@
         <item name="android:layout_marginEnd">@dimen/card_header_outer_view_margin_end</item>
     </style>
 
-    <!--Style for Header Compound View -->
+    <!-- Style for Header Compound View -->
     <style name="card.header_compound_view">
-
     </style>
 
-    <!--Style for simple title header inner view-->
+    <!-- Style for simple title header inner view -->
     <style name="card.header_simple_title">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -68,13 +66,12 @@
         <item name="android:layout_marginBottom">@dimen/card_header_simple_title_margin_bottom</item>
     </style>
 
-    <!-- Style for Header Buttons ***********************************************-->
+    <!-- Style for Header Buttons *********************************************** -->
 
     <style name="card.header_button_frame">
-
     </style>
 
-    <!-- Button Base in Header-->
+    <!-- Button Base in Header -->
     <style name="card.header_button_base">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -100,13 +97,11 @@
 
     <!-- Other Button in Header -->
     <style name="card.header_button_base.other">
-
     </style>
 
+    <!-- Style for Content ****************************************************** -->
 
-    <!-- Style for Content ******************************************************-->
-
-    <!--Style for Content View-->
+    <!-- Style for Content View -->
     <style name="card.content_outer_layout">
         <item name="android:layout_width">match_parent</item>
         <item name="android:minHeight">@dimen/card_base_empty_height</item>
@@ -116,7 +111,7 @@
         <item name="android:layout_marginEnd">@dimen/card_content_outer_view_margin_end</item>
     </style>
 
-    <!--Style for simple title inner main view-->
+    <!-- Style for simple title inner main view -->
     <style name="card.base_simple_title">
         <item name="android:textStyle">bold</item>
         <item name="android:fontFamily">sans-serif</item>
@@ -125,10 +120,9 @@
         <item name="android:layout_marginTop">@dimen/card_main_simple_title_margin_top</item>
     </style>
 
+    <!-- Style for Main Layout **************************************** -->
 
-    <!-- Style for Main Layout ****************************************-->
-
-    <!-- Style for Main Layout-->
+    <!-- Style for Main Layout -->
     <style name="card.main_layout">
         <item name="android:background">@drawable/card_selector</item>
         <item name="android:layout_marginTop">@dimen/card_main_layout_view_margin_top</item>
@@ -137,15 +131,14 @@
         <item name="android:layout_marginEnd">@dimen/card_main_layout_view_margin_end</item>
     </style>
 
-    <!-- Style for Hidden Expand Layout ****************************************-->
+    <!-- Style for Hidden Expand Layout **************************************** -->
 
     <style name="card.main_contentExpand">
         <item name="android:background">@color/card_backgroundExpand</item>
         <item name="android:padding">@dimen/card_expand_layout_padding</item>
     </style>
 
-
-    <!--Style for simple title expand/collapse inner view-->
+    <!-- Style for simple title expand/collapse inner view -->
     <style name="card.expand_simple_title">
         <item name="android:layout_gravity">start|center_vertical</item>
         <item name="android:gravity">center_vertical</item>
@@ -156,8 +149,7 @@
         <item name="android:textColor">@color/card_expand_title_color</item>
     </style>
 
-
-    <!-- Style for Thumbnail ******************************************************-->
+    <!-- Style for Thumbnail ****************************************************** -->
 
     <style name="card_thumbnail_image">
         <item name="android:layout_width">@dimen/card_thumbnail_width</item>
@@ -172,10 +164,10 @@
         <item name="android:layout_height">wrap_content</item>
     </style>
 
-    <style name="card.thumbnail_compound_view"></style>
+    <style name="card.thumbnail_compound_view">
+    </style>
 
-
-    <!-- Style for Lists ******************************************************-->
+    <!-- Style for Lists ****************************************************** -->
 
     <style name="list_card">
         <item name="android:paddingStart">@dimen/list_card_padding_start</item>
@@ -186,13 +178,10 @@
 
     <!-- Base list -->
     <style name="list_card.base">
-
     </style>
-
 
     <!-- Thumbnail list -->
     <style name="list_card.thumbnail">
-
     </style>
 
     <style name="grid_card">

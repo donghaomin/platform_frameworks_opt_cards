@@ -17,14 +17,13 @@
   -->
 
 <resources>
-    
+
     <string name="app_name">CardsLib</string>
 
-
-    <!-- Undo Controller-->
+    <!-- Undo Controller -->
 
     <string name="list_card_undo_title">Undo</string>
-    <!--<string name="undo_card">Card removed</string>-->
+    <!-- <string name="undo_card">Card removed</string> -->
 
     <plurals name="list_card_undo_items">
         <item quantity="one">1 card removed</item>
@@ -36,8 +35,5 @@
         <item quantity="one">1 item selected</item>
         <item quantity="other">%d items selected</item>
     </plurals>
-
-
-
 
 </resources>

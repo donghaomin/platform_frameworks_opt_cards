@@ -35,7 +35,7 @@
     <dimen name="card_header_outer_view_margin_bottom">0dp</dimen>
     <dimen name="card_header_outer_view_margin_end">0dp</dimen>
 
-    <!--Button Header -->
+    <!-- Button Header -->
     <dimen name="card_header_button_padding_start">10dp</dimen>
     <dimen name="card_header_button_padding_end">0dp</dimen>
     <dimen name="card_header_button_padding_bottom">0dp</dimen>
@@ -76,7 +76,6 @@
     <dimen name="card_expand_simple_title_paddingEnd">10dp</dimen>
     <dimen name="card_expand_simple_title_text_size">14sp</dimen>
 
-
     <!-- List -->
     <dimen name="list_card_padding_start">8dp</dimen>
     <dimen name="list_card_padding_end">8dp</dimen>
@@ -88,7 +87,5 @@
     <dimen name="grid_card_padding_end">2dp</dimen>
     <dimen name="grid_card_padding_bottom">2dp</dimen>
     <dimen name="grid_card_padding_top">2dp</dimen>
-
-
 
 </resources>
